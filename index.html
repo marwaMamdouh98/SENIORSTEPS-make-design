@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <!-- start header-->
+    <div class="header">
+        <!-- item 1 for logo-->
+        <div class="menu_header p-md-3 pb-4">
+            <div class="container-fluid">
+                <div class="row">
+                    <!-- item 1-->
+                    <div class="col-md-6">
+                        <div class="menu_logo d-flex align-items-center justify-content-start">
+                            <img src="images/logo.png" alt="" >
+                           <h5 class="menu_tittle text-uppercase ps-1 fw-bold">seniorsteps</h5>
+                        </div>
+                    </div>
+                    <!-- item 2-->
+                    <div class="col-md-6">
+                        <!-- for number hidden in md , sm-->
+                        <div class="menu_call d-lg-flex  d-none  justify-content-md-end align-items-center justify-content-start mt-md-0 mt-sm-3  ">
+                            <p class="fw-bold">Call: +01234567890</p>
+                        </div>
+                        <!-- for bar appear in md , sm-->
+                        <div class="menu_bar d-lg-none d-sm-flex justify-content-md-end align-items-center justify-content-start">
+                            <img src="images/menu.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- item 2 for bg of header and content-->
+        <div class="header_content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 d-md-flex justify-content-lg-center align-items-lg-center justify-content-start align-items-center">
+                        <div class="header_text mx-lg-4 px-lg-5 mb-3">
+                            <h1 class="text-capitalize fw-bolder">make design</h1>
+                            <p>There are many variations of passages of lorem insupm avaliable, but the majority.</p>
+                            <button class=" header_btn text-capitalize ">read more</button>    
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="header_image">
+                            <img src="images/hero.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="header_arrow1 d-lg-flex justify-content-center align-items-center py-lg-2 my-5 d-md-none  px-1  ">
+                    <img src="images/left-arrow-black.png" alt="" >
+                </div>
+                <div class="header_arrow2  d-lg-flex justify-content-center align-items-center py-lg-2 mx-5 d-md-none px-1 ">
+                    <img src="images/right-arrow-black.png" alt="">
+                </div>   
+                
+            </div>
+        </div>
+    </div>
+    <!-- end header-->
+    <!-- start navbar-->
+    <nav class="navbar navbar-expand-lg   header_nav d-lg-block d-none mb-5 sticky-lg-top">
+        <div class="container nav_container ">
+          <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-capitalize ">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">about</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">contact us</a>
+              </li>
+            </ul>
+            <div class="login">
+                <ul class="navbar-nav mb-2 mb-lg-0 text-capitalize">
+                    <li class="nav-item mx-3">login</li>
+                    <li class="nav-item"><i class="fas fa-search"></i></li>
+                </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+     <!-- end navbar-->
+     <!-- start about-->
+     <div class="about my-5 ">
+         <div class="container about_container ">
+            <div class="row">
+                <!-- item 1 for image-->
+                <div class="col-lg-7 col-md-6 col-sm-12">
+                    <div class="about_image">
+                        <img src="images/about-img.png" alt="">
+                    </div>
+                </div>
+                <!-- item 2 for text-->
+                <div class="col-lg-5 col-md-6 col-sm-12 d-md-flex align-items-md-center justify-content-md-center justify-content-start align-items-center">
+                    <div class="about_text ">
+                        <div class="text_tittle">
+                            <h2 class="about_tittle text-capitalize fw-bolder">about design</h2>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam aperiam 
+                            porro dolor dolorem dolorum maiores aspernatur a iste perferendis repudiandae,
+                             aut ullam cumque nihil at, ad neque iusto mollitia natus?</p>
+                        <button class="about_btn my-3 text-capitalize">about more</button>
+                    </div>
+                </div>
+            </div>
+         </div>
+     </div>
+     <!-- end about-->
+     <!-- start doing-->
+     <div class="doing my-5">
+         <div class="container doing_container">
+             <!-- doing tittle-->
+            <div class="doing_tittle pe-5 me-5 w-100">
+                <h3 class="doing_header text-capitalize fw-bolder">what we do  </h3> 
+            </div>
+            <!-- doing items-->
+            <div class="doing_items my-4">
+                <div class="row">
+                    <!-- item 1-->
+                    <div class="col-md-3 col-sm-6 mb-3">
+                        <div class="doing_item text-center py-3 px-1 active_doing1">
+                            <img src="images/idea.png" alt="" class="pb-lg-2 pb-md-3 pb-sm-2">
+                            <h5 class="text-capitalize">original ideas</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae ullam tenetur quaerat</p>
+                        </div>
+                    </div>
+                    <!-- item 2-->
+                    <div class="col-md-3 col-sm-6 mb-3">
+                        <div class="doing_item text-center py-3 px-1 active_doing2">
+                            <img src="images/controller.png" alt="" class="pb-lg-1 pb-md-3">
+                            <h5 class="text-capitalize">create apps</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae ullam tenetur quaerat</p>
+                        </div>
+                    </div>
+                    <!-- item 3-->
+                    <div class="col-md-3 col-sm-6 mb-3">
+                        <div class="doing_item text-center py-3 px-1 active_doing1">
+                            <img src="images/monitor.png" alt=""class="pb-lg-3 pb-md-0 pb-sm-2 ">
+                            <h5 class="text-capitalize">high resolution</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae ullam tenetur quaerat</p>
+                        </div>
+                    </div>
+                    <!-- item 4-->
+                    <div class="col-md-3 col-sm-6 mb-3">
+                        <div class="doing_item text-center py-3 px-1 active_doing2">
+                            <img src="images/rocket-ship.png" alt="" class="pb-lg-2 pb-md-3 ">
+                            <h5 class="text-capitalize">fast loading</h5>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae ullam tenetur quaerat</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+     </div>
+     <!-- end doing-->
+     <!-- start skills-->
+     <div class="skills container-fluid py-3">
+        <div class="container skills_container">
+            <div class="skills_tittle d-flex justify-content-md-end justify-content-start mb-5 mt-2 ">
+                <h3 class="skills_header text-capitalize fw-bolder ">our skills</h3>
+            </div>
+            <div class="skills_items my-5">
+                <div class="row">
+                    <!-- item 1-->
+                    <div class="col-md-3 col-sm-6 mb-4 d-flex justify-content-center align-items-center ">
+                        <div class="skill d-flex justify-content-center align-items-center w-100 flex-column">
+                            <div class="bar d-flex justify-content-center align-items-center">
+                                <svg>
+                                    <circle cx='50%' cy='50%' r="50%"></circle>
+                                  </svg>
+                                  <p class="fw-bold">85%</p>
+                            </div>
+                            <span class="my-3 text-capitalize fw-bold">adobe photoshop</span>
+                         </div>
+                    </div>
+                    <!-- item 2-->
+                    <div class="col-md-3 col-sm-6 mb-4 d-flex justify-content-center align-items-center ">
+                        <div class="skill d-flex justify-content-center align-items-center w-100 flex-column">
+                            <div class="bar bar2 d-flex justify-content-center align-items-center">
+                                <svg>
+                                    <circle cx='50%' cy='50%' r="50%"></circle>
+                                  </svg>
+                                  <p class="fw-bold">55%</p>
+                            </div>
+                            <span class="my-3 text-capitalize fw-bold">adobe illustartion</span>
+                         </div>
+                    </div>
+                    <!-- item 3-->
+                    <div class="col-md-3 col-sm-6 mb-4 d-flex justify-content-center align-items-center ">
+                        <div class="skill d-flex justify-content-center align-items-center w-100 flex-column">
+                            <div class="bar bar3 d-flex justify-content-center align-items-center">
+                                <svg>
+                                    <circle cx='50%' cy='50%' r="50%"></circle>
+                                  </svg>
+                                  <p class="fw-bold">65%</p>
+                            </div>
+                            <span class="my-3 text-capitalize fw-bold">affter effect </span>
+                         </div>
+                    </div>
+                    <!-- item 4-->
+                    <div class="col-md-3 col-sm-6 mb-4 d-flex justify-content-center align-items-center ">
+                        <div class="skill d-flex justify-content-center align-items-center w-100 flex-column">
+                            <div class="bar  d-flex justify-content-center align-items-center">
+                                <svg>
+                                    <circle cx='50%' cy='50%' r="50%"></circle>
+                                  </svg>
+                                  <p class="fw-bold">85%</p>
+                            </div>
+                            <span class="my-3 text-capitalize fw-bold">adobe  XD </span>
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+     </div>
+     <!-- end skills-->
+     <!-- start portfolio-->
+     <div class="portfolio container-fluid my-5">
+         <!-- start tittle-->
+         <div class=" container portfolio_container">
+            <div class="portfolio_tittle d-flex justify-content-start mb-5 mt-2 ">
+                <h3 class="portfolio_header text-capitalize fw-bolder ">our portfolio</h3>
+            </div>
+        </div>
+        <!-- start items-->
+        <div class="portfolio_items">
+            <div class="row">
+                <!-- item 1-->
+                <div class="col-md-3 col-sm-6 mb-3">
+                    <div class="portfolio_item">
+                        <div class="row">
+                            <!-- item 1-1-->
+                            <div class="col-lg-12 mb-3">
+                                <div class="inner_item ">
+                                    <img src="images/p-1.png" alt="">
+                                    <div class="inner_text d-flex justify-content-center align-items-center">
+                                       <h4 class="text-capitalize"> logo design</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- item 1-2-->
+                            <div class="col-lg-12">
+                                <div class="inner_item mt-1 ">
+                                    <img src="images/p-2.png" alt="">
+                                    <div class="inner_text d-flex justify-content-center align-items-center">
+                                       <h4 class="text-capitalize"> coding</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- item 2-->
+                <div class="col-md-3 col-sm-6 mb-3">
+                    <div class="portfolio_item">
+                        <img src="images/p-3.png" alt="">
+                        <div class="item_text d-flex justify-content-center align-items-center">
+                            <h4 class="text-capitalize"> bike design</h4>
+                         </div>
+                    </div>
+                </div>
+                <!-- item 3-->
+                <div class="col-md-3 col-sm-6 mb-3">
+                    <div class="portfolio_item">
+                        <div class="row">
+                            <!-- item 3-1-->
+                            <div class="col-lg-12 mb-3 ">
+                                <div class="inner_item ">
+                                    <img src="images/p-4.png" alt="">
+                                    <div class="inner_text d-flex justify-content-center align-items-center">
+                                       <h4 class="text-capitalize"> flower design</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- item 3-2-->
+                            <div class="col-lg-12">
+                                <div class="inner_item mt-1 ">
+                                    <img src="images/p-5.png" alt="">
+                                    <div class="inner_text d-flex justify-content-center align-items-center">
+                                       <h4 class="text-capitalize"> website design</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- item 2-->
+                <div class="col-md-3 col-sm-6 mb-3">
+                    <div class="portfolio_item port_item4">
+                        <img src="images/p-6.jpg" alt="">
+                        <div class="item_text d-flex justify-content-center align-items-center ">
+                            <h4 class="text-capitalize"> more design</h4>
+                         </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+     </div>
+     <!-- end portfolio-->
+    <!-- start testimonial-->
+    <div class="testimonial my-5">
+       <div class=" container ">
+            <!-- start tittle-->
+            <div class="testimonial_tittle d-flex justify-content-center mb-5 mt-2 ">
+                <h3 class="testimonial_header text-capitalize fw-bolder ">testimonial</h3>
+            </div>
+            <!-- start items-->
+            <div class=" container testimonial_container">
+                <div class="testimonial_items">
+                    <div class="row">
+                        <!-- item 1-->
+                        <div class="col-lg-6">
+                            <div class="testimonial_item p-3">
+                                <div class="inner_box_item">
+                                    <div class="row d-flex align-items-end">
+                                        <div class="col-sm-5 ">
+                                            <div class="inner_img pe-0 ">
+                                                <img src="images/client-1.jpg" alt="" >
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-7">
+                                            <div class="inner_text_box ps-0 ">
+                                                <h5 class="text-uppercase ">smirth jon</h5>
+                                                <span>client</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi adipisci,
+                                     dicta quas voluptate ipsum debitis obcaecati minus, molestiae velit fugit
+                                      natus magni nisi, nam laudantium exercitationem esse iusto dignissimos hic
+                                       qui. Sit, possimus esse rem deleniti quasi quaerat voluptatem ad voluptatibus
+                                        necessitatibus accusantium cumque. Magni earum ipsam tempore sapiente maiores!
+                                         Provident unde, doloribus, vero doloremque eaque quidem asperiores accusantium
+                                          quas iure veniam quaerat ex consequuntur voluptas? Neque praesentium autem 
+                                          voluptatum ipsa. Repudiandae veniam, voluptatibus blanditiis unde nisi tempore
+                                           id dolore corporis omnis eaque illo</p>
+                            </div>
+                        </div>
+                        <!-- item 2-->
+                        <div class="col-lg-6 mt-lg-5">
+                            <div class="testimonial_item p-3 mt-5 ">
+                                <div class="inner_box_item d-flex align-items-end">
+                                    <div class="row d-flex align-items-end">
+                                        <div class="col-sm-6 ">
+                                            <div class="inner_img pe-0 ">
+                                                <img src="images/client-2.jpg" alt="" >
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-6 ">
+                                            <div class="inner_text_box ps-0 ">
+                                                <h5 class="text-uppercase ">smirth jon</h5>
+                                                <span>client</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi adipisci,
+                                     dicta quas voluptate ipsum debitis obcaecati minus, molestiae velit fugit
+                                      natus magni nisi, nam laudantium exercitationem esse iusto dignissimos hic
+                                       qui. Sit, possimus esse rem deleniti quasi quaerat voluptatem ad voluptatibus
+                                        necessitatibus accusantium cumque. Magni earum ipsam tempore sapiente maiores!
+                                         Provident unde, doloribus, vero doloremque eaque quidem asperiores accusantium
+                                          quas iure veniam quaerat ex consequuntur voluptas? Neque praesentium autem 
+                                          voluptatum ipsa. Repudiandae veniam, voluptatibus blanditiis unde nisi tempore
+                                           id dolore corporis omnis eaque illo</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- start arrows-->
+            <div class="testimonial_arrow1 d-lg-flex justify-content-center align-items-center d-none">
+                <!--<img src="images/left-arrow-black.png" alt="">-->
+            </div>
+            <div class="testimonial_arrow2  d-lg-flex justify-content-center align-items-center d-none">
+                <!--<img src="images/right-arrow-black.png" alt="">-->
+            </div>   
+         </div>  
+    </div>
+    <!-- end testimonial-->
+    <!-- start contact-->
+    <div class="contect container-fluid mt-5 ">
+        <div class="row">
+            <!-- item 1-->
+            <div class="col-md-6 ">
+                <div class="contact_content  pb-5 ">
+                    <div class="contact_tittle text-center">
+                        <h2 class="text-capitalize">contact us</h2>
+                    </div>
+                    <div class="contact_form ms-lg-auto m-auto mx-lg-4 ">
+                        <form>
+                            <div class="mb-3">
+                              <input type="email" class="w-100 form_input p-2" placeholder="Name" aria-describedby="emailHelp">
+                            </div>
+                            <div class="mb-3">
+                              <input type="email" class="w-100 form_input p-2" placeholder="Email" >
+                            </div>
+                            <div class="mb-3">
+                                <input type="number" class="w-100 form_input p-2" placeholder="Phone Number" >
+                            </div>
+                            <div class=" mb-3 ">
+                                <textarea class="w-100 form_input p-2 pt-4" placeholder="Message" id="floatingTextarea" ></textarea>
+                            </div>
+                            <button type="submit" class="btn contact_btn text-capitalize px-4">send</button>
+                          </form>
+                    </div>
+                </div>
+            </div>
+            <!-- item 2-->
+            <div class="col-md-6 ">
+                <div class="contact_img d-flex align-items-center justify-content-center">
+                    <img src="images/contact.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end contact-->
+    <!-- start footer-->
+    <div class="footer py-4">
+        <div class="container footer_container ">
+            <!-- item footer-->
+            <div class="footer_items pt-4">
+                <div class="row">
+                    <!-- item 1-->
+                    <div class="col-lg-3 col-md-6 col-sm-12 mb-4 d-flex justify-content-md-start justify-content-center text-md-start text-center ">
+                        <div class="footer_item d-flex flex-column">
+                            <h4 class="text-capitalize">menu</h4>
+                            <div class="footer_list">
+                                <ul class="list-unstyled text-capitalize ms-md-4 ms-0">
+                                    <li class="active_li"><a>home</a></li>
+                                    <li ><a>about</a></li>
+                                    <li><a>portfolio</a></li>
+                                    <li ><a>services</a></li>
+                                    <li ><a>contact us</a></li>
+                                </ul>
+                            </div>
+                       </div>
+                    </div>
+                    <!-- item 2-->
+                    <div class="col-lg-3 col-md-6 col-sm-12 mb-4 d-flex justify-content-md-start justify-content-center text-md-start text-center">
+                        <div class="footer_item">
+                            <h4 class="text-capitalize mb-2 ">location</h4>
+                            <div class="row ">
+                                <!-- item 2-1-->
+                                <div class="col-md-12 d-flex justify-content-md-start justify-content-center text-md-start text-center">
+                                    <div class="location_item d-flex">
+                                        <div class="location_icon me-2">
+                                            <i class="fas fa-map-marker-alt"></i>
+                                        </div>
+                                        <div class="location_text">
+                                            <p> 104 Lorem ipsum</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- item 2-2-->
+                                <div class="col-md-12 d-flex justify-content-md-start justify-content-center text-md-start text-center">
+                                    <div class="location_item d-flex">
+                                        <div class="location_icon me-2">
+                                            <i class="fas fa-phone-volume"></i>
+                                        </div>
+                                        <div class="location_text">
+                                            <p> (+01234567890)</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- item 2-3-->
+                                <div class="col-md-12 d-flex justify-content-md-start justify-content-center text-md-start text-center">
+                                    <div class="location_item d-flex">
+                                        <div class="location_icon me-2">
+                                            <i class="fas fa-envelope"></i>
+                                        </div>
+                                        <div class="location_text">
+                                            <p>demo@gmail.com</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- item 3-->
+                    <div class="col-lg-3 col-md-6 col-sm-12 mb-4 d-flex justify-content-md-start justify-content-center text-md-start text-center">
+                        <div class="footer_item">
+                            <h4 class="text-capitalize mb-2">social link</h4>
+                            <div class="footer_icon d-flex fs-2">
+                                <i class="fab fa-facebook-square me-2"></i>
+                                <i class="fab fa-twitter-square me-2"></i>
+                                <i class="fab fa-instagram-square me-2"></i>
+                                <i class="fab fa-linkedin me-2"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- item 4-->
+                    <div class="col-lg-3 col-md-6 col-sm-12 mb-4 d-flex justify-content-md-start justify-content-center text-md-start text-center">
+                        <div class="footer_item">
+                            <h4 class="text-capitalize mb-2" >newsletter</h4>
+                            <form action="">
+                                <div class="row">
+                                    <div class="col-md-12 d-flex justify-content-md-start justify-content-center text-md-left text-center">
+                                        <input type="email" placeholder="Enter Your Email" class="ps-2 ">
+                                    </div>
+                                </div>
+                                <div class="col-md-12 d-flex justify-content-md-start justify-content-center text-md-left text-center">
+                                    <button class="btn footer_btn text-uppercase mt-3 px-3">subscribe</button>
+                                </div>
+                            </form>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <!-- footer copyright-->
+            <div class="footer_copy d-flex justify-content-center py-3 ">
+                <p class="text-capitalize text-center"><i class="far fa-copyright"></i> 2019 all rights reseved by seniorsteps HTML templates</p>
+            </div>
+        </div>
+    </div>
+    <!-- end footer-->
+</body>
+</html>
